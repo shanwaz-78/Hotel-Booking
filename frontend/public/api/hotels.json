@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Grand Plaza",
+      "location": "New York",
+      "description": "Luxury hotel in downtown New York",
+      "price": 250,
+      "rooms": [
+        {
+          "id": 1,
+          "type": "Deluxe Room",
+          "price": 250,
+          "capacity": 2
+        },
+        {
+          "id": 2,
+          "type": "Executive Suite",
+          "price": 400,
+          "capacity": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Beach Resort",
+      "location": "Miami",
+      "description": "Beautiful resort with ocean view",
+      "price": 300,
+      "rooms": [
+        {
+          "id": 3,
+          "type": "Ocean View Room",
+          "price": 300,
+          "capacity": 2
+        },
+        {
+          "id": 4,
+          "type": "Family Suite",
+          "price": 500,
+          "capacity": 6
+        }
+      ]
+    }
+  ]
+}

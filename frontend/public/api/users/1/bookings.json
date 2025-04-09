@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 1,
+      "checkInDate": "2023-06-15T00:00:00.000Z",
+      "checkOutDate": "2023-06-20T00:00:00.000Z",
+      "status": "confirmed",
+      "room": {
+        "id": 1,
+        "type": "Deluxe Room",
+        "price": 250,
+        "capacity": 2,
+        "hotel": {
+          "id": 1,
+          "name": "Grand Plaza",
+          "location": "New York",
+          "description": "Luxury hotel in downtown New York",
+          "price": 250
+        }
+      },
+      "guests": [
+        {
+          "id": 1,
+          "bookingId": 1,
+          "name": "John Doe",
+          "aadhaar": "123456789012",
+          "age": 35,
+          "checkedIn": true
+        },
+        {
+          "id": 2,
+          "bookingId": 1,
+          "name": "Jane Doe",
+          "aadhaar": "987654321098",
+          "age": 32,
+          "checkedIn": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "roomId": 4,
+      "checkInDate": "2023-07-10T00:00:00.000Z",
+      "checkOutDate": "2023-07-15T00:00:00.000Z",
+      "status": "confirmed",
+      "room": {
+        "id": 4,
+        "type": "Family Suite",
+        "price": 500,
+        "capacity": 6,
+        "hotel": {
+          "id": 2,
+          "name": "Beach Resort",
+          "location": "Miami",
+          "description": "Beautiful resort with ocean view",
+          "price": 300
+        }
+      },
+      "guests": [
+        {
+          "id": 3,
+          "bookingId": 2,
+          "name": "John Doe",
+          "aadhaar": null,
+          "age": 35,
+          "checkedIn": false
+        },
+        {
+          "id": 4,
+          "bookingId": 2,
+          "name": "Jane Doe",
+          "aadhaar": null,
+          "age": 32,
+          "checkedIn": false
+        },
+        {
+          "id": 5,
+          "bookingId": 2,
+          "name": "Baby Doe",
+          "aadhaar": null,
+          "age": 5,
+          "checkedIn": false
+        }
+      ]
+    }
+  ]
+}
